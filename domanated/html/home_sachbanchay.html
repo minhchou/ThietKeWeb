@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <title>Sản phẩm bán chạy</title>
+    <style>
+        /* CSS để đổi màu chữ "Juno" thành màu đỏ */
+        .nav-item {
+            color: red; /* Đặt màu chữ thành màu đỏ */
+        }
+    </style>
+</head>
+<body>
+  
+    <!-- Phần TOP Đăng nhập / Đăng kí-->
+    <div class="first-half">
+
+        <div class="nav-bar">
+            <ul class="nav-list">
+                <li  class="nav-item"> Juno</li>
+            </ul> 
+            <ul class="nav-list">
+
+                <li class="nav-item"><a class="link" href="DangNhap.html" title="Đăng nhập">Đăng nhập</a></li>  
+                <li class="nav-item"><span class="sep">|</span></li>
+                <li class="nav-item"><a class="link" href="DangKy.html"  title="Đăng ký">Đăng ký</a></li> 
+
+            </ul>
+        </div>
+    </div>
+        
+        <!-- Phần HEADER -->
+        <div class="header">
+            <div class="containers">
+                <div class="row">
+                    <div class="header-logo col-hd-lg">
+                        <h1>
+                            <a href="Home.html">
+                                
+                            <img style="width: 120px; height: 25px;" class="img-responsive" 
+                                    src="../images/Logo-Juno.webp" alt=""> 
+                            </a>
+                        </h1>
+                    </div>
+
+                    <div class="header-search">
+                            <input class="search-text" name="q" type="search" id="search" placeholder="Nhập sản phẩm bạn muốn tìm kiếm"><button type="submit" class="search-btn">🔎</button>
+                   
+                    </div>
+
+                    <div class="header-cart">
+                        <div class="topbar-cart">
+                            <div class="shopping_cart">
+                                <a href="GioHang.html" title="giỏ hàng" rel="nofollow">
+                                    <p class="cart-icon">
+                                        <i class="icon_list">
+                                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="446.843px" height="446.843px" viewBox="0 0 446.843 446.843"
+                                                style="enable-background:new 0 0 446.843 446.843;" xml:space="preserve">
+                                            </svg>
+                                        </i>
+                                        <span class="cart_quantity">0</span>
+                                    </p>
+                                    <p>
+                                        <span class="top-cart">Giỏ hàng</span>
+                                        <span class="ajax_cart_no_product ajax_cart_quantity">0</span> sản phẩm
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+        <!-- PHẦN MENU -->
+         <div class="main">
+            <div class="containers">
+                <div class="row">
+                    <div >
+                        <ul class="main-list">
+                            <li class="main-item" style="display: inline-block;">
+                                <a style="color: var(--main-color);" title="Trang chủ" href="Home.html" class="active-nav"><span>Trang chủ</span></a>
+                            </li>
+                            <li class="main-item" style="display: inline-block;">
+                                <a title="Sản phẩm" href="SanPham.html"><span>Sản phẩm</span></a>
+                            </li>
+                            <li class="main-item" style="display: inline-block;">
+                                <a title="Tin tức" href="TinTuc.html"><span>Tin tức</span></a>
+                            </li>
+                            <li class="main-item" style="display: inline-block;">
+                                <a title="Thông tin" href="ThongTin.html"><span>Thông tin</span></a>
+                            </li>
+                            <li class="main-item" style="display: inline-block;">
+                                <a title="Liên hệ" href="LienHe.html"><span>Liên hệ</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                  </div>
+             </div>
+             </div>
+        </div>
+         <!-- PHẦN BANNER -->
+
+        <div class="main_content" style="width: 100%; position: relative; margin: auto">
+           
+                            <!-- Begin slider -->
+                            <div class="slider-default col-sl">
+                                <div class="row">
+                                    <div class="flexslider-container">
+                                        <section id="banner">
+                                            <div class="slideshow-container">
+                                              
+                                                <div class="mySlides fade">
+                                                   
+                                                    <img class="slider_img" src="../images/baner1.jpg"
+                                                        style="width:100%" alt="Banner 1">
+                                                </div>
+                                                <div class="mySlides fade">
+                                                   
+                                                    <img class="slider_img" src="../images/baner2.jpg"
+                                                        style="width:100%" alt="Banner 2">
+                                                </div>
+                                                <div class="mySlides fade">
+                                                    
+                                                    <img class="slider_img" src="../images/slideJuno2.webp"
+                                                        style="width:100%" alt="Banner 3">
+                                                </div>
+												<div class="mySlides fade">
+                                                    
+                                                    <img class="slider_img" src="../images/slide1.webp"
+                                                        style="width:100%" alt="Banner 4">
+                                                </div>
+
+
+                                               
+                                            </div>
+                                            <br>
+                                        
+                                            <script>
+                                                let slideIndex = 0;
+                                                showSlides();
+                                                function showSlides() {
+                                                    let i;
+                                                    let slides = document.getElementsByClassName("mySlides");
+                                                    for (i = 0; i < slides.length; i++) {
+                                                        slides[i].style.display = "none";
+                                                    }
+                                                    slideIndex++;
+                                                    if (slideIndex > slides.length) { slideIndex = 1 }
+                                                    slides[slideIndex - 1].style.display = "block";
+                                                    //Change image every 3 sec
+                                                    setTimeout(showSlides, 3000);
+                                                }
+
+                                            </script>
+                                        </section>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                      
+            </div> <!-- PHẦN ƯU ĐÃI -->
+        <div class="home-policy" style="width: 90%;margin-left: 80px;">
+            <div class="containers">
+                <div class="home-policy-list">
+
+                    <div >
+                        <div class="item">
+                            <div class="icon">
+                                <img src="../images/delivery-truck.png" alt="ƯU ĐÃI ">
+                            </div>
+                            <div class="info">
+                                ƯU ĐÃI <br> VẬN CHUYỂN
+                            </div>
+                        </div>
+                    </div>
+
+                    <div >
+                        <div class="item">
+                            <div class="icon">
+                                <img src="../images/confetti.png" alt="THỂ LOẠI SÁCH ">
+                            </div>
+                            <div class="info">
+                                THỜI TRANG <br> PHONG PHÚ
+                            </div>
+                        </div>
+                    </div>
+
+                    <div >
+                        <div class="item">
+                            <div class="icon">
+                                <img src="../images/money.png" alt="KHUYẾN MẠI" >
+                            </div>
+                            <div class="info">
+                                KHUYẾN MẠI <br> HẤP DẪN
+                            </div>
+                        </div>
+                    </div>
+
+                    <div >
+                        <div class="item">
+                            <div class="icon">
+                                <img src="../images/moon.png" alt="Hotline">
+                            </div>
+                            <div class="info">
+                                Hotline: <br> 0325951225<br> 0325951225
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+  <!-- PHẦN BÁN CÁC LOẠI SÁCH  -->
+        <section id="home-new-tab"> 
+            <div class="containers">
+                 <ul class="hnt-tab text-center">
+                    <!--CHƯA FIX ĐƯỢC CHO 3 CÁI NÓ LẠI GẦN NHAU  -->
+                        <li class="item-two active">
+                            <a href="Home.html">SẢN PHẨM MỚI</a>
+                        </li>
+                        <li class="item-two ">
+                            <a href="home_sachbanchay.html" >SẢN PHẨM BÁN CHẠY</a>
+                        </li>
+                        <li class="item-two ">
+                            <a href="home_hotdeals.html">HOT DEALS</a>
+                        </li>
+                    </ul>
+                    <!-- PHẦN CÁC LOẠI SÁCH -->
+                    <div class="tab-content">
+                        <div>
+                            <div class="container" id="books">
+                                
+                            </div>
+                        </div>
+                        <div id="xemThem">
+                            <div id="xemThem-content">
+                                <!-- Chưa có href SanPham -->
+                                <a href="SanPham.html"><button id="btn-xemThem">Xem thêm</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                  <!-- PHẦN FOOTER -->
+        <div>
+            <footer class="footer-position">
+                <div class="side-footer">
+                    <div class="containers">
+                        <div class="contact-footer">
+                            <div class="footer-logo">
+                                <a href="#">
+                                    <img style="width: 100px; height: 30px;" class="img-responsive" src="../images/Logo-Juno.webp" alt="JUNO">
+                                </a>
+                            </div>
+        
+                            <p class="marker-first">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>140 lê trọng tấn,Phường Tây Thạnh,Q.Tân Phú, Thành phố Hồ Chí Minh</span>
+                            </p>
+                            <p class="marker-first">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>Hotline: 0325951225</span>
+                            </p>
+                            <p class="marker-first">
+                                <i class="far fa-envelope"></i>
+                                <span>Email: nguyenchien12122003@gmail.com</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Giấy phép DKKD số 0123456789, cấp lần thứ 00 năm 2023</span>
+                            </p>
+                        </div>
+        
+                        <div class="user-footer">
+                            <div class="support">
+                                <div class="support-user">
+                                    <h4>Hỗ trợ khách hàng</h4>
+                                    <div>
+                                        <ul>
+                                            <li><a href="">Câu hỏi thường gặp</a></li>
+                                            <li><a href="">Điều khoản dịch vụ</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="policy">
+                                    <h4>Chính sách</h4> 
+                                    <div>
+                                        <ul> 
+                                            <li><a href="">Chính sách bảo mật</a></li>
+                                            <li><a href="">Chính sách thanh toán</a></li>
+                                            <li><a href="">Chính sách vận chuyển</a></li>
+                                            <li><a href="">Chính sách đổi trả</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="email-group">
+                                <div class="email">
+                                    <h4>Đăng ký nhận tin</h4>
+                                    <p>Hãy nhập email của bạn vào ô dưới đây để có thể nhận được tất cả tin tức mới nhất của 
+                                        ABC</p>
+                                    <div class="input-group">
+                                        <form action="">
+                                            <input type="email" value="" placeholder="Nhập email của bạn..."
+                                                name="contact[email]" id="Email" class="input-group-field" autocorrect="off"
+                                                autocapitalize="off">
+                                        </form>
+                                        <button type="submit" class="button-btn1" name="subscribe" id="subscribe">Đăng
+                                            ký</button>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="connect-footer">
+                            <div class="connect">
+                                <h4>Kết nối với chúng tôi</h4>
+                                <div class="icon-footer">
+                                    <a href="https://www.facebook.com/anhduong091003">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com/hapycb">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/i_am_young22/">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+        
+                            <img style=" margin-top: 50px;margin-left: 30px;" src="../images/logo-da-thong-bao-voi-bo-cong-thuong.png" alt="">
+                            <div style="display: flex; justify-content: space-between;">
+                                <img style="width: 25%;margin-top: 30px; " src="../images/logo-momo.png" alt="">
+                                <img style="width: 25%;margin-top: 30px; " src="../images/Logo-ZaloPay.png" alt="">
+                                <img style="width: 25%;margin-top: 30px; " src="../images/Logo-ShopeePay.png" alt="">
+                            </div>
+                            
+                        </div>               
+                        </div>               
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="../js/dataSachBanChay.js" ></script>
+
+        
+         
+</body>
+</html>
